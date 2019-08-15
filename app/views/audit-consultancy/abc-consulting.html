@@ -1,0 +1,128 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  GOV.UK Public Procurement
+{% endblock %}
+
+
+{% block beforeContent %}
+
+  {{ govukBackLink({
+    text: "Audit Consultancy suppliers",
+    href: "/audit-consultancy/suppliers"
+  })}}
+
+{% endblock %}
+
+{% block content %}
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+    <h1 class="govuk-heading-xl">
+      ABC Consulting
+    </h1>
+  </div>
+</div>
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+    <p>
+      60 years experience working on agile projects in government.
+    </p>
+    {{ govukSummaryList({
+      rows: [
+        {
+          key: {
+            text: "Site"
+          },
+          value: {
+            html: "<a href='#'>www.abc-consulting.digital</a>"
+          }
+        },
+        {
+          key: {
+            text: "Phone"
+          },
+          value: {
+            text: "01234 567890"
+          }
+        },
+        {
+          key: {
+            text: "DUNS number"
+          },
+          value: {
+            text: "01234567890"
+          }
+        },
+        {
+          key: {
+            text: "Address"
+          },
+          value: {
+            html: '4 Star House, Bristol Road Research Park,<br>Guildford<br>GU4 7FF'
+          }
+        }
+      ]
+    }) }}
+
+    <h2 class="govuk-heading-m">
+      Services offered
+    </h2>
+    <ul class="govuk-list">
+      <li>
+        <a href="#">
+          Audit consultancy
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          Business consultancy
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          Complex and transformational consultancy
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          Contact centre consultancy
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          ICT and digital consultancy
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          Financial consultancy
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          Human resources (HR) consultancy
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          Health and community consultancy
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          Procurement, supply chain and commercial consultancy
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          Strategic consultancy
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+{% endblock %}

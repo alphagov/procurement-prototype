@@ -1,0 +1,72 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  GOV.UK Public Procurement
+{% endblock %}
+
+
+{% block beforeContent %}
+
+  {{ govukBackLink({
+    text: "Consultancy",
+    href: "/consultancy"
+  })}}
+
+{% endblock %}
+
+{% block content %}
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+    <h1 class="govuk-heading-xl">
+      Audit Consultancy
+    </h1>
+  </div>
+</div>
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+    <p>Advice on audit assurance, assessment of governance, risk management and
+      internal controls in line with government internal audit standards.
+      Financial audit and advice on auditing annual financial statements,
+      assessment of process compliance, financial performance, security
+      anti-fraud, quality and compliance.
+    </p>
+
+    <h2 class="govuk-heading-m">Next steps</h2>
+    <p>You can:</p>
+    <ul class="govuk-list govuk-list--bullet">
+      <li>
+        <p>
+          <a href="/audit-consultancy/suppliers">
+            Browse suppliers
+          </a>
+        </p>
+      </li>
+      <li>
+        <a href="#">
+          Run an Expression of Interest (EOI)
+        </a>
+        <p>
+          to find suppliers who can help you, and talk to them about your needs.
+        </p>
+      </li>
+      <li>
+        <a href="#">
+          Run a competition
+        </a>
+        <p>
+          for suppliers to bid on your project.
+        </p>
+      </li>
+      <li>
+        <a href="#">
+          Hire a specific supplier
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+{% endblock %}
