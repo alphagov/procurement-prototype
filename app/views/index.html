@@ -48,7 +48,7 @@
         {% for subcategory in category.children %}
 
           <li>
-            <a href="{{ subcategory.name|toSlug }}">
+            <a href="/browse/{{ subcategory.name|toSlug }}">
               {{ subcategory.name }}
             </a>
           </li>

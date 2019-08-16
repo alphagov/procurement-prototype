@@ -38,7 +38,45 @@
       "name": "People",
       "children": [
         {
-          "name": "Consultancy and managing change"
+          "name": "Consultancy and managing change",
+          "children": [
+            {
+              "name": "Audit consultancy"
+            },
+            {
+              "name": "Business consultancy"
+            },
+            {
+              "name": "Complex and transformational consultancy"
+            },
+            {
+              "name": "Contact centre consultancy"
+            },
+            {
+              "name": "Education consultancy"
+            },
+            {
+              "name": "Financial consultancy"
+            },
+            {
+              "name": "Human resources (HR) consultancy"
+            },
+            {
+              "name": "Health and community consultancy"
+            },
+            {
+              "name": "Infrastructure consultancy"
+            },
+            {
+              "name": "ICT and digital consultancy"
+            },
+            {
+              "name": "Procurement, supply chain and commercial consultancy"
+            },
+            {
+              "name": "Strategic consultancy"
+            }
+          ]
         },
         {
           "name": "Contact Centres"

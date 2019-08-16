@@ -39,7 +39,8 @@ module.exports = function (env) {
   ------------------------------------------------------------------ */
 
   filters.toSlug = function(input) {
-      return input.replace(/\s+/g, '-').toLowerCase()
+    if (typeof(input) != "string") return null
+    return input.replace(/\s+/g, '-').toLowerCase()
   }
 
   /* ------------------------------------------------------------------
