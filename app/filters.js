@@ -38,6 +38,10 @@ module.exports = function (env) {
 
   ------------------------------------------------------------------ */
 
+  filters.toSlug = function(input) {
+      return input.replace(/\s+/g, '-').toLowerCase()
+  }
+
   /* ------------------------------------------------------------------
     keep the following line to return your filters to the app
   ------------------------------------------------------------------ */

@@ -36,78 +36,32 @@
 </div>
 
 <div class="govuk-grid-row">
-  <div class="govuk-grid-column-one-quarter">
-    <h2 class="govuk-heading-s">Buildings</h2>
-    <ul class="govuk-list">
-      <li>
-        <a href="#">Construction</a>
-      </li>
-      <li>
-        <a href="#">Utilities and fuel</a>
-      </li>
-      <li>
-        <a href="#">Workplace</a>
-      </li>
-    </ul>
-  </div>
-  <div class="govuk-grid-column-one-quarter">
-    <h2 class="govuk-heading-s">Corporate solutions</h2>
-    <ul class="govuk-list">
-      <li>
-        <a href="#">Document Management and Logistics</a>
-      </li>
-      <li>
-        <a href="#">Financial Services</a>
-      </li>
-      <li>
-        <a href="#">Fleet</a>
-      </li>
-      <li>
-        <a href="#">Marcomms and Research</a>
-      </li>
-      <li>
-        <a href="#">Travel</a>
-      </li>
-    </ul>
-  </div>
-  <div class="govuk-grid-column-one-quarter">
-    <h2 class="govuk-heading-s">People</h2>
-    <ul class="govuk-list">
-      <li>
-        <a href="/consultancy">Consultancy and managing change</a>
-      </li>
-      <li>
-        <a href="#">Contact Centres</a>
-      </li>
-      <li>
-        <a href="#">People Services</a>
-      </li>
-      <li>
-        <a href="#">Workforce Health and Education</a>
-      </li>
-      <li>
-        <a href="#">PSR and Permanent Recruitment</a>
-      </li>
-    </ul>
-  </div>
-  <div class="govuk-grid-column-one-quarter">
-    <h2 class="govuk-heading-s">Technology</h2>
-    <ul class="govuk-list">
-      <li>
-        <a href="#">Digital Future</a>
-      </li>
-      <li>
-        <a href="#">Network Services</a>
-      </li>
-      <li>
-        <a href="#">Software and Cyber</a>
-      </li>
-      <li>
-        <a href="#">Technology Products and Services</a>
-      </li>
-    </ul>
-  </div>
+
+  {% for category in taxonomy.children %}
+
+    <div class="govuk-grid-column-one-quarter">
+      <h2 class="govuk-heading-s">
+        {{ category.name }}
+      </h2>
+      <ul class="govuk-list">
+
+        {% for subcategory in category.children %}
+
+          <li>
+            <a href="{{ subcategory.name|toSlug }}">
+              {{ subcategory.name }}
+            </a>
+          </li>
+
+        {% endfor %}
+
+      </ul>
+    </div>
+
+  {% endfor %}
+
 </div>
+
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-one-quarter">
     <h2 class="govuk-heading-m">Help and guides</h2>

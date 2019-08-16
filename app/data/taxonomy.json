@@ -1,0 +1,75 @@
+{
+  "children": [
+    {
+      "name": "Buildings",
+      "children": [
+        {
+          "name": "Construction"
+        },
+        {
+          "name": "Utilities and fuel"
+        },
+        {
+          "name": "Workplace"
+        }
+      ]
+    },
+    {
+      "name": "Corporate solutions",
+      "children": [
+        {
+          "name": "Document Management and Logistics"
+        },
+        {
+          "name": "Financial Services"
+        },
+        {
+          "name": "Fleet"
+        },
+        {
+          "name": "Marcomms and Research"
+        },
+        {
+          "name": "Travel"
+        }
+      ]
+    },
+    {
+      "name": "People",
+      "children": [
+        {
+          "name": "Consultancy and managing change"
+        },
+        {
+          "name": "Contact Centres"
+        },
+        {
+          "name": "People Services"
+        },
+        {
+          "name": "Workforce Health and Education"
+        },
+        {
+          "name": "PSR and Permanent Recruitment"
+        }
+      ]
+    },
+    {
+      "name": "Technology",
+      "children": [
+        {
+          "name": "Digital Future"
+        },
+        {
+          "name": "Network Services"
+        },
+        {
+          "name": "Software and Cyber"
+        },
+        {
+          "name": "Technology Products and Services"
+        }
+      ]
+    }
+  ]
+}
