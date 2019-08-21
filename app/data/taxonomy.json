@@ -1,41 +1,24 @@
 {
   "children": [
     {
-      "name": "Buildings",
+      "name": "Technology",
       "children": [
         {
-          "name": "Construction"
+          "name": "Data storage"
         },
         {
-          "name": "Utilities and fuel"
+          "name": "Network services"
         },
         {
-          "name": "Workplace"
+          "name": "Software"
+        },
+        {
+          "name": "Security"
         }
       ]
     },
     {
-      "name": "Corporate solutions",
-      "children": [
-        {
-          "name": "Document Management and Logistics"
-        },
-        {
-          "name": "Financial Services"
-        },
-        {
-          "name": "Fleet"
-        },
-        {
-          "name": "Marcomms and Research"
-        },
-        {
-          "name": "Travel"
-        }
-      ]
-    },
-    {
-      "name": "People",
+      "name": "Research and strategy",
       "children": [
         {
           "name": "Consultancy and managing change",
@@ -79,33 +62,75 @@
           ]
         },
         {
-          "name": "Contact Centres"
-        },
-        {
-          "name": "People Services"
-        },
-        {
-          "name": "Workforce Health and Education"
-        },
-        {
-          "name": "PSR and Permanent Recruitment"
+          "name": "Market research"
         }
       ]
     },
     {
-      "name": "Technology",
+      "name": "People and training",
       "children": [
         {
-          "name": "Digital Future"
+          "name": "Contact centres"
         },
         {
-          "name": "Network Services"
+          "name": "People services"
         },
         {
-          "name": "Software and Cyber"
+          "name": "Permanent recruitment"
         },
         {
-          "name": "Technology Products and Services"
+          "name": "Temporary recruitment"
+        },
+        {
+          "name": "Workforce health and education"
+        }
+      ]
+    },
+    {
+      "name": "Buildings and utilities",
+      "children": [
+        {
+          "name": "Construction"
+        },
+        {
+          "name": "Furniture"
+        },
+        {
+          "name": "Utilities and fuel"
+        },
+        {
+          "name": "Venue hire"
+        },
+        {
+          "name": "Workplace"
+        }
+      ]
+    },
+    {
+      "name": "Legal and finance",
+      "children": [
+        {
+          "name": "Accountancy"
+        },
+        {
+          "name": "Legal services"
+        },
+        {
+          "name": "Payment"
+        }
+      ]
+    },
+    {
+      "name": "Travel and logistics",
+      "children": [
+        {
+          "name": "Mail"
+        },
+        {
+          "name": "Taxis and coaches"
+        },
+        {
+          "name": "Vehicles"
         }
       ]
     }
