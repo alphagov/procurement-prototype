@@ -1,0 +1,96 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  GOV.UK Public Procurement
+{% endblock %}
+
+
+{% block beforeContent %}
+
+  {{ govukBackLink({
+    text: "Home",
+    href: "/"
+  })}}
+
+{% endblock %}
+
+{% block content %}
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+    <h1 class="govuk-heading-xl">
+      <span class="govuk-caption-xl">Framework</span>
+      Permanent recruitment solutions
+    </h1>
+
+    {{ govukSummaryList({
+      classes: "govuk-!-font-size-16",
+      rows: [
+        {
+          key: {
+            text: "Framework ID"
+          },
+          value: {
+            html: "RM6002"
+          }
+        },
+        {
+          key: {
+            text: "Start date"
+          },
+          value: {
+            html: "13/11/2018"
+          }
+        },
+        {
+          key: {
+            text: "End date"
+          },
+          value: {
+            html: "12/11/2020"
+          }
+        }
+      ]
+    }) }}
+
+    <h2 class="govuk-heading-l">
+      Services
+    </h2>
+
+    <ul class="govuk-list">
+      <li>
+        <a href="#">
+          Recruitment - Administrative & operational roles
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          Recruitment - Digital, Data and Technology (DDaT)
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          Recruitment - Corporate
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          Recruitment - Finance
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          Recruitment - Project delivery
+        </a>
+      </li>
+    </ul>
+
+    <p class="govuk-!-margin-top-9">
+      <a href="#">Can't find what you're looking for?</a>
+    </p>
+  </div>
+
+</div>
+
+{% endblock %}
