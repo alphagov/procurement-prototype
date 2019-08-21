@@ -30,7 +30,7 @@
     <ul class="govuk-list">
       {% for service in category.children %}
       <li>
-        <a href="/service/{{ service.name|toSlug }}">
+        <a href="/service/{{ service.name|toSlug }}/">
           {{ service.name }}
         </a>
       </li>

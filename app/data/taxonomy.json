@@ -113,7 +113,18 @@
           "name": "Accountancy"
         },
         {
-          "name": "Legal services"
+          "name": "Legal services",
+          "children": [
+            {
+              "name": "Complex legal services"
+            },
+            {
+              "name": "Litigation and dispute resolution"
+            },
+            {
+              "name": "Property law"
+            }
+          ]
         },
         {
           "name": "Payment"

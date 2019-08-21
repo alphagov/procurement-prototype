@@ -1,0 +1,106 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  GOV.UK Public Procurement
+{% endblock %}
+
+
+{% block beforeContent %}
+
+  {{ govukBackLink({
+    text: "Legal and finance",
+    href: "/browse/legal-and-finance"
+  })}}
+
+{% endblock %}
+
+{% block content %}
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+    <h1 class="govuk-heading-xl">
+      <span class="govuk-caption-xl">Litigation and dispute resolution</span>
+      Find a supplier
+    </h1>
+  </div>
+</div>
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+
+  <form action="">
+    <div class="form-group">
+
+      {{ govukRadios({
+        idPrefix: "org-type",
+        name: "org-type",
+        fieldset: {
+          legend: {
+            text: "What type of organisation do you work for?",
+            classes: "govuk-fieldset__legend--s"
+          }
+        },
+        items: [
+          {
+            value: "Central government department, agency or body",
+            text: "Central government department, agency or body"
+          },
+          {
+            value: "Local government",
+            text: "Local government"
+          },
+          {
+            value: "School",
+            text: "School"
+          },
+          {
+            value: "Other public sector",
+            text: "Other public sector"
+          }
+        ]
+      }) }}
+
+    </div>
+    <div class="form-group">
+
+      {{ govukRadios({
+        idPrefix: "how",
+        name: "how",
+        fieldset: {
+          legend: {
+            text: "How do you want to find suppliers?",
+            classes: "govuk-fieldset__legend--s"
+          }
+        },
+        items: [
+          {
+            value: "Get quotes from different suppliers",
+            text: "Get quotes from different suppliers"
+          },
+          {
+            value: "Award the contract directly to a supplier",
+            text: "Award the contract directly to a supplier"
+          }
+        ]
+      }) }}
+
+      <p>
+        Awarding the contract directly to a supplier might mean you don’t get the best value. Check with your organisation’s head of procurement or legal adviser before you do so.
+      </p>
+
+    </div>
+    
+    <div class="form-group">
+      <button class="govuk-button">
+        Continue
+      </button>
+
+    </div>
+  </form>
+
+  </div>
+
+</div>
+
+{% endblock %}
