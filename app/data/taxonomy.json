@@ -7,6 +7,29 @@
           "name": "Data storage"
         },
         {
+          "name": "Hardware",
+          "children": [
+            {
+              "name": "Accessories"
+            },
+            {
+              "name": "Desktops"
+            },
+            {
+              "name": "Laptops"
+            },
+            {
+              "name": "Phones"
+            },
+            {
+              "name": "Printers"
+            },
+            {
+              "name": "Routers"
+            }
+          ]
+        },
+        {
           "name": "Network services"
         },
         {
