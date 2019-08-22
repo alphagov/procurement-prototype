@@ -1,0 +1,110 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  GOV.UK Public Procurement
+{% endblock %}
+
+
+{% block beforeContent %}
+
+  {{ govukBackLink({
+    text: "Contact centre consultancy",
+    href: "/service/contact-centre-consultancy/"
+  })}}
+
+{% endblock %}
+
+{% block content %}
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+    <h1 class="govuk-heading-xl">
+      <span class="govuk-caption-xl">Contact centre consultancy</span>
+      Find a supplier
+    </h1>
+  </div>
+</div>
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+
+  <form action="">
+    <div class="form-group">
+
+      {{ govukRadios({
+        idPrefix: "org-type",
+        name: "org-type",
+        fieldset: {
+          legend: {
+            text: "What type of organisation do you work for?",
+            classes: "govuk-fieldset__legend--s"
+          }
+        },
+        items: [
+          {
+            value: "Central government department, agency or body",
+            text: "Central government department, agency or body"
+          },
+          {
+            value: "Local government",
+            text: "Local government"
+          },
+          {
+            value: "School",
+            text: "School"
+          },
+          {
+            value: "Other public sector",
+            text: "Other public sector"
+          }
+        ]
+      }) }}
+
+    </div>
+    <div class="form-group">
+
+      {{ govukCheckboxes({
+        idPrefix: "who",
+        name: "who",
+        fieldset: {
+          legend: {
+            text: "Who do you want a response from?",
+            classes: "govuk-fieldset__legend--s"
+          }
+        },
+        items: [
+          {
+            value: "Consultancy firms",
+            text: "Consultancy firms"
+          },
+          {
+            value: "Individual consultants",
+            text: "Individual consultants"
+          }
+        ]
+      }) }}
+
+      <p class="govuk-inset-text">
+        If you’re working for a central government organisation, you’ll need  approval from Cabinet Office to spend money on consultancy.
+      </p>
+
+      <p>
+        If you’re not sure whether these suppliers can meet your needs, <a href="#">run an expression of interest (EOI)</a> to find out.
+      </p>
+
+    </div>
+
+    <div class="form-group">
+      <button class="govuk-button">
+        Continue
+      </button>
+
+    </div>
+  </form>
+
+  </div>
+
+</div>
+
+{% endblock %}
