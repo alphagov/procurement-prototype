@@ -1,8 +1,31 @@
 const express = require('express')
 const router = express.Router()
+const lunr = require('lunr')
 
+const searchIndex = require('./data/search-index')
 const taxonomy = require('./data/taxonomy')
 const filters = require('./filters')()
+
+// build search
+
+let lunrIndex = lunr(function () {
+  this.ref('id')
+  this.field('title')
+  this.field('body')
+  this.metadataWhitelist = ['position']
+
+  searchIndex.forEach(function (page) {
+    this.add(page)
+  }, this)
+})
+
+// make index hash - faster to find pages by url
+
+let searchIndexHash = {}
+
+for (let page of searchIndex){
+  searchIndexHash[page.id] = page
+}
 
 // Add your routes here - above the module.exports line
 
@@ -30,6 +53,32 @@ router.get("/browse/:category", function (request, response, next){
   response.locals.category = searchTree(taxonomy, request.params.category)
 
   response.render('browse')
+
+})
+
+router.get('/search', function(request, response, next){
+
+  let searchTerm = request.query.q
+
+  let lunrResults = lunrIndex.search(searchTerm)
+
+  // Process Lunr results into something we can display
+
+  let searchResults = []
+
+  for (let lunrResult of lunrResults){
+    let page = searchIndexHash[lunrResult.ref]
+    let result = {
+      title: page.title.replace(' - GOV.UK Public Procurement', ''),
+      href: page.id
+    }
+    searchResults.push(result)
+  }
+
+  response.locals.searchTerm = searchTerm
+  response.locals.searchResults = searchResults
+
+  response.render('search')
 
 })
 

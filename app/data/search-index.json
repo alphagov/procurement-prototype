@@ -6,27 +6,27 @@
   },
   {
     "id": "http://localhost:3000/browse/vehicles",
-    "title": "GOV.UK Public Procurement",
+    "title": "Browse Vehicles - GOV.UK Public Procurement",
     "body": " Vehicles Intro text here Can't find what you're looking for? "
   },
   {
     "id": "http://localhost:3000/browse/taxis-and-coaches",
-    "title": "GOV.UK Public Procurement",
+    "title": "Browse Taxis and coaches - GOV.UK Public Procurement",
     "body": " Taxis and coaches Intro text here Can't find what you're looking for? "
   },
   {
     "id": "http://localhost:3000/browse/mail",
-    "title": "GOV.UK Public Procurement",
+    "title": "Browse Mail - GOV.UK Public Procurement",
     "body": " Mail Intro text here Can't find what you're looking for? "
   },
   {
     "id": "http://localhost:3000/browse/payment",
-    "title": "GOV.UK Public Procurement",
+    "title": "Browse Payment - GOV.UK Public Procurement",
     "body": " Payment Intro text here Can't find what you're looking for? "
   },
   {
     "id": "http://localhost:3000/browse/legal-services",
-    "title": "GOV.UK Public Procurement",
+    "title": "Browse Legal services - GOV.UK Public Procurement",
     "body": " Legal services Intro text here Complex legal services Litigation and dispute resolution Property law Can't find what you're looking for? "
   },
   {
@@ -56,72 +56,72 @@
   },
   {
     "id": "http://localhost:3000/browse/legal-and-finance",
-    "title": "GOV.UK Public Procurement",
+    "title": "Browse Legal and finance - GOV.UK Public Procurement",
     "body": " Legal and finance Intro text here Accountancy Legal services Payment Can't find what you're looking for? "
   },
   {
     "id": "http://localhost:3000/browse/accountancy",
-    "title": "GOV.UK Public Procurement",
+    "title": "Browse Accountancy - GOV.UK Public Procurement",
     "body": " Accountancy Intro text here Can't find what you're looking for? "
   },
   {
     "id": "http://localhost:3000/browse/workplace",
-    "title": "GOV.UK Public Procurement",
+    "title": "Browse Workplace - GOV.UK Public Procurement",
     "body": " Workplace Intro text here Can't find what you're looking for? "
   },
   {
     "id": "http://localhost:3000/browse/venue-hire",
-    "title": "GOV.UK Public Procurement",
+    "title": "Browse Venue hire - GOV.UK Public Procurement",
     "body": " Venue hire Intro text here Can't find what you're looking for? "
   },
   {
     "id": "http://localhost:3000/browse/utilities-and-fuel",
-    "title": "GOV.UK Public Procurement",
+    "title": "Browse Utilities and fuel - GOV.UK Public Procurement",
     "body": " Utilities and fuel Intro text here Can't find what you're looking for? "
   },
   {
     "id": "http://localhost:3000/browse/furniture",
-    "title": "GOV.UK Public Procurement",
+    "title": "Browse Furniture - GOV.UK Public Procurement",
     "body": " Furniture Intro text here Can't find what you're looking for? "
   },
   {
     "id": "http://localhost:3000/browse/construction",
-    "title": "GOV.UK Public Procurement",
+    "title": "Browse Construction - GOV.UK Public Procurement",
     "body": " Construction Intro text here Can't find what you're looking for? "
   },
   {
     "id": "http://localhost:3000/browse/workforce-health-and-education",
-    "title": "GOV.UK Public Procurement",
+    "title": "Browse Workforce health and education - GOV.UK Public Procurement",
     "body": " Workforce health and education Intro text here Can't find what you're looking for? "
   },
   {
     "id": "http://localhost:3000/browse/temporary-recruitment",
-    "title": "GOV.UK Public Procurement",
+    "title": "Browse Temporary recruitment - GOV.UK Public Procurement",
     "body": " Temporary recruitment Intro text here Can't find what you're looking for? "
   },
   {
     "id": "http://localhost:3000/browse/permanent-recruitment",
-    "title": "GOV.UK Public Procurement",
+    "title": "Browse Permanent recruitment - GOV.UK Public Procurement",
     "body": " Permanent recruitment Intro text here Can't find what you're looking for? "
   },
   {
     "id": "http://localhost:3000/browse/people-services",
-    "title": "GOV.UK Public Procurement",
+    "title": "Browse People services - GOV.UK Public Procurement",
     "body": " People services Intro text here Can't find what you're looking for? "
   },
   {
     "id": "http://localhost:3000/browse/contact-centres",
-    "title": "GOV.UK Public Procurement",
+    "title": "Browse Contact centres - GOV.UK Public Procurement",
     "body": " Contact centres Intro text here Can't find what you're looking for? "
   },
   {
     "id": "http://localhost:3000/browse/market-research",
-    "title": "GOV.UK Public Procurement",
+    "title": "Browse Market research - GOV.UK Public Procurement",
     "body": " Market research Intro text here Can't find what you're looking for? "
   },
   {
     "id": "http://localhost:3000/browse/consultancy-and-managing-change",
-    "title": "GOV.UK Public Procurement",
+    "title": "Browse Consultancy and managing change - GOV.UK Public Procurement",
     "body": " Consultancy and managing change Intro text here Audit consultancy Business consultancy Complex and transformational consultancy Contact centre consultancy Education consultancy Financial consultancy Human resources (HR) consultancy Health and community consultancy Infrastructure consultancy ICT and digital consultancy Procurement, supply chain and commercial consultancy Strategic consultancy Can't find what you're looking for? "
   },
   {
@@ -141,22 +141,22 @@
   },
   {
     "id": "http://localhost:3000/browse/security",
-    "title": "GOV.UK Public Procurement",
+    "title": "Browse Security - GOV.UK Public Procurement",
     "body": " Security Intro text here Can't find what you're looking for? "
   },
   {
     "id": "http://localhost:3000/browse/software",
-    "title": "GOV.UK Public Procurement",
+    "title": "Browse Software - GOV.UK Public Procurement",
     "body": " Software Intro text here Can't find what you're looking for? "
   },
   {
     "id": "http://localhost:3000/browse/network-services",
-    "title": "GOV.UK Public Procurement",
+    "title": "Browse Network services - GOV.UK Public Procurement",
     "body": " Network services Intro text here Can't find what you're looking for? "
   },
   {
     "id": "http://localhost:3000/browse/hardware",
-    "title": "GOV.UK Public Procurement",
+    "title": "Browse Hardware - GOV.UK Public Procurement",
     "body": " Hardware Intro text here Accessories Desktops Laptops Phones Printers Routers Can't find what you're looking for? "
   },
   {
@@ -171,7 +171,7 @@
   },
   {
     "id": "http://localhost:3000/browse/data-storage",
-    "title": "GOV.UK Public Procurement",
+    "title": "Browse Data storage - GOV.UK Public Procurement",
     "body": " Data storage Intro text here Can't find what you're looking for? "
   },
   {
