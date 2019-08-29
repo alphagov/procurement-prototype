@@ -19,17 +19,27 @@
 
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-two-thirds">
-    <h1 class="govuk-heading-xl">
-      Search
-    </h1>
 
-    <form action="">
-      {{
-        govukInput({
-          'name':'q',
-          'value': searchTerm
-        })
-      }}
+    <form action="/search">
+      <div class="govuk-form-group govuk-!-margin-bottom-3">
+        {{ govukInput({
+          label: {
+            text: "Search",
+            classes: "govuk-label--xl",
+            isPageHeading: true
+          },
+          id: "search",
+          name: "q",
+          hint: {
+            text: "Find products, services, suppliers or frameworks."
+          }
+        }) }}
+      </div>
+      <div class="govuk-form-group">
+        {{ govukButton({
+          text: "Search"
+        }) }}
+      </div>
     </form>
 
     <ul class="govuk-list">

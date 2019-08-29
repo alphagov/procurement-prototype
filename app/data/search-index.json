@@ -6,172 +6,172 @@
   },
   {
     "id": "http://localhost:3000/browse/vehicles",
-    "title": "Browse Vehicles - GOV.UK Public Procurement",
+    "title": "Vehicles - GOV.UK Public Procurement",
     "body": " Vehicles Intro text here Can't find what you're looking for? "
   },
   {
     "id": "http://localhost:3000/browse/taxis-and-coaches",
-    "title": "Browse Taxis and coaches - GOV.UK Public Procurement",
+    "title": "Taxis and coaches - GOV.UK Public Procurement",
     "body": " Taxis and coaches Intro text here Can't find what you're looking for? "
   },
   {
     "id": "http://localhost:3000/browse/mail",
-    "title": "Browse Mail - GOV.UK Public Procurement",
+    "title": "Mail - GOV.UK Public Procurement",
     "body": " Mail Intro text here Can't find what you're looking for? "
   },
   {
     "id": "http://localhost:3000/browse/payment",
-    "title": "Browse Payment - GOV.UK Public Procurement",
+    "title": "Payment - GOV.UK Public Procurement",
     "body": " Payment Intro text here Can't find what you're looking for? "
   },
   {
     "id": "http://localhost:3000/browse/legal-services",
-    "title": "Browse Legal services - GOV.UK Public Procurement",
+    "title": "Legal services - GOV.UK Public Procurement",
     "body": " Legal services Intro text here Complex legal services Litigation and dispute resolution Property law Can't find what you're looking for? "
   },
   {
     "id": "http://localhost:3000/service/litigation-and-dispute-resolution/",
-    "title": "GOV.UK Public Procurement",
+    "title": "Litigation and dispute resolution",
     "body": " Litigation and dispute resolution Litigation and alternative forms of dispute resolution - including arbitration, mediation, contractual resolution advocacy and early advice on disputes. Find a supplier View all litigation and dispute resolution suppliers Can't find what you're looking for? Related services Financial and complex legal services "
   },
   {
     "id": "http://localhost:3000/service/audit-consultancy/suppliers",
-    "title": "GOV.UK Public Procurement",
+    "title": "Suppliers - Audit consultancy - GOV.UK Public Procurement",
     "body": " Audit Consultancy Suppliers ABC Consulting Ltd Summary here Bravo Green Summary here Central Ltd Summary here "
   },
   {
     "id": "http://localhost:3000/service/audit-consultancy/abc-consulting",
-    "title": "GOV.UK Public Procurement",
+    "title": "Supplier - ABC Consulting - GOV.UK Public Procurement",
     "body": " ABC Consulting 60 years experience working on agile projects in government. Site www.abc-consulting.digital Phone 01234 567890 DUNS number 01234567890 Address 4 Star House, Bristol Road Research Park,GuildfordGU4 7FF Services offered Audit consultancy Business consultancy Complex and transformational consultancy Contact centre consultancy ICT and digital consultancy Financial consultancy Human resources (HR) consultancy Health and community consultancy Procurement, supply chain and commercial consultancy Strategic consultancy "
   },
   {
     "id": "http://localhost:3000/service/audit-consultancy",
-    "title": "GOV.UK Public Procurement",
+    "title": "Audit consultancy - GOV.UK Public Procurement",
     "body": " Audit consultancy Advice on financial auditing including assurance, governance, risk management, financial statements and compliance with government internal audit standards. Auditing internal processes, financial performance and security and anti-fraud audits. Find a supplier View all audit consultancy suppliers Can't find what you're looking for? Related services Financial and complex legal services "
   },
   {
     "id": "http://localhost:3000/service/litigation-and-dispute-resolution/filter-suppliers",
-    "title": "GOV.UK Public Procurement",
+    "title": "Find a supplier - Litigation and dispute resolution - GOV.UK Public Procurement",
     "body": " Litigation and dispute resolution Find a supplier What type of organisation do you work for? Central government department, agency or body Local government School Other public sector How do you want to find suppliers? Get quotes from different suppliers Award the contract directly to a supplier Awarding the contract directly to a supplier might mean you don’t get the best value. Check with your organisation’s head of procurement or legal adviser before you do so. Continue "
   },
   {
     "id": "http://localhost:3000/browse/legal-and-finance",
-    "title": "Browse Legal and finance - GOV.UK Public Procurement",
+    "title": "Legal and finance - GOV.UK Public Procurement",
     "body": " Legal and finance Intro text here Accountancy Legal services Payment Can't find what you're looking for? "
   },
   {
     "id": "http://localhost:3000/browse/accountancy",
-    "title": "Browse Accountancy - GOV.UK Public Procurement",
+    "title": "Accountancy - GOV.UK Public Procurement",
     "body": " Accountancy Intro text here Can't find what you're looking for? "
   },
   {
     "id": "http://localhost:3000/browse/workplace",
-    "title": "Browse Workplace - GOV.UK Public Procurement",
+    "title": "Workplace - GOV.UK Public Procurement",
     "body": " Workplace Intro text here Can't find what you're looking for? "
   },
   {
     "id": "http://localhost:3000/browse/venue-hire",
-    "title": "Browse Venue hire - GOV.UK Public Procurement",
+    "title": "Venue hire - GOV.UK Public Procurement",
     "body": " Venue hire Intro text here Can't find what you're looking for? "
   },
   {
     "id": "http://localhost:3000/browse/utilities-and-fuel",
-    "title": "Browse Utilities and fuel - GOV.UK Public Procurement",
+    "title": "Utilities and fuel - GOV.UK Public Procurement",
     "body": " Utilities and fuel Intro text here Can't find what you're looking for? "
   },
   {
     "id": "http://localhost:3000/browse/furniture",
-    "title": "Browse Furniture - GOV.UK Public Procurement",
+    "title": "Furniture - GOV.UK Public Procurement",
     "body": " Furniture Intro text here Can't find what you're looking for? "
   },
   {
     "id": "http://localhost:3000/browse/construction",
-    "title": "Browse Construction - GOV.UK Public Procurement",
+    "title": "Construction - GOV.UK Public Procurement",
     "body": " Construction Intro text here Can't find what you're looking for? "
   },
   {
     "id": "http://localhost:3000/browse/workforce-health-and-education",
-    "title": "Browse Workforce health and education - GOV.UK Public Procurement",
+    "title": "Workforce health and education - GOV.UK Public Procurement",
     "body": " Workforce health and education Intro text here Can't find what you're looking for? "
   },
   {
     "id": "http://localhost:3000/browse/temporary-recruitment",
-    "title": "Browse Temporary recruitment - GOV.UK Public Procurement",
+    "title": "Temporary recruitment - GOV.UK Public Procurement",
     "body": " Temporary recruitment Intro text here Can't find what you're looking for? "
   },
   {
     "id": "http://localhost:3000/browse/permanent-recruitment",
-    "title": "Browse Permanent recruitment - GOV.UK Public Procurement",
+    "title": "Permanent recruitment - GOV.UK Public Procurement",
     "body": " Permanent recruitment Intro text here Can't find what you're looking for? "
   },
   {
     "id": "http://localhost:3000/browse/people-services",
-    "title": "Browse People services - GOV.UK Public Procurement",
+    "title": "People services - GOV.UK Public Procurement",
     "body": " People services Intro text here Can't find what you're looking for? "
   },
   {
     "id": "http://localhost:3000/browse/contact-centres",
-    "title": "Browse Contact centres - GOV.UK Public Procurement",
+    "title": "Contact centres - GOV.UK Public Procurement",
     "body": " Contact centres Intro text here Can't find what you're looking for? "
   },
   {
     "id": "http://localhost:3000/browse/market-research",
-    "title": "Browse Market research - GOV.UK Public Procurement",
+    "title": "Market research - GOV.UK Public Procurement",
     "body": " Market research Intro text here Can't find what you're looking for? "
   },
   {
     "id": "http://localhost:3000/browse/consultancy-and-managing-change",
-    "title": "Browse Consultancy and managing change - GOV.UK Public Procurement",
+    "title": "Consultancy and managing change - GOV.UK Public Procurement",
     "body": " Consultancy and managing change Intro text here Audit consultancy Business consultancy Complex and transformational consultancy Contact centre consultancy Education consultancy Financial consultancy Human resources (HR) consultancy Health and community consultancy Infrastructure consultancy ICT and digital consultancy Procurement, supply chain and commercial consultancy Strategic consultancy Can't find what you're looking for? "
   },
   {
     "id": "http://localhost:3000/service/contact-centre-consultancy/",
-    "title": "GOV.UK Public Procurement",
+    "title": "Contact centre consultancy - GOV.UK Public Procurement",
     "body": " Contact centre consultancy Advice on improving content centre processes, technology and encouraging channel shift and use of digital services. Find a supplier View all contact centre consultancy suppliers Can't find what you're looking for? "
   },
   {
     "id": "http://localhost:3000/service/contact-centre-consultancy/filter-suppliers",
-    "title": "GOV.UK Public Procurement",
+    "title": "Find a supplier - Contact centre consultancy - GOV.UK Public Procurement",
     "body": " Contact centre consultancy Find a supplier What type of organisation do you work for? Central government department, agency or body Local government School Other public sector Who do you want a response from? Consultancy firms Individual consultants If you’re working for a central government organisation, you’ll need approval from Cabinet Office to spend money on consultancy. If you’re not sure whether these suppliers can meet your needs, run an expression of interest (EOI) to find out. Continue "
   },
   {
     "id": "http://localhost:3000/service/audit-consultancy/",
-    "title": "GOV.UK Public Procurement",
+    "title": "Audit consultancy - GOV.UK Public Procurement",
     "body": " Audit consultancy Advice on financial auditing including assurance, governance, risk management, financial statements and compliance with government internal audit standards. Auditing internal processes, financial performance and security and anti-fraud audits. Find a supplier View all audit consultancy suppliers Can't find what you're looking for? Related services Financial and complex legal services "
   },
   {
     "id": "http://localhost:3000/browse/security",
-    "title": "Browse Security - GOV.UK Public Procurement",
+    "title": "Security - GOV.UK Public Procurement",
     "body": " Security Intro text here Can't find what you're looking for? "
   },
   {
     "id": "http://localhost:3000/browse/software",
-    "title": "Browse Software - GOV.UK Public Procurement",
+    "title": "Software - GOV.UK Public Procurement",
     "body": " Software Intro text here Can't find what you're looking for? "
   },
   {
     "id": "http://localhost:3000/browse/network-services",
-    "title": "Browse Network services - GOV.UK Public Procurement",
+    "title": "Network services - GOV.UK Public Procurement",
     "body": " Network services Intro text here Can't find what you're looking for? "
   },
   {
     "id": "http://localhost:3000/browse/hardware",
-    "title": "Browse Hardware - GOV.UK Public Procurement",
+    "title": "Hardware - GOV.UK Public Procurement",
     "body": " Hardware Intro text here Accessories Desktops Laptops Phones Printers Routers Can't find what you're looking for? "
   },
   {
     "id": "http://localhost:3000/service/laptops/",
-    "title": "GOV.UK Public Procurement",
+    "title": "Laptops - GOV.UK Public Procurement",
     "body": " Laptops Apple, Windows and Linux laptop/notebook computers, from ultra-portable to high performance computers suitable for media editing. Find a supplier View all laptop suppliers Can't find what you're looking for? Related products and services Desktops Tablets Computer support "
   },
   {
     "id": "http://localhost:3000/service/laptops/filter-suppliers",
-    "title": "GOV.UK Public Procurement",
+    "title": "Find a supplier - Laptops - GOV.UK Public Procurement",
     "body": " Laptops Find a supplier What type of organisation do you work for? Central government department, agency or body Local government School Other public sector How many laptops do you need? Large quantity of identical laptops (usually 500 or more) Smaller quantity (usually fewer than 500) Since you’re buying a large quantity of identical items. We recommend that you get quotes from different suppliers. How do you want to find suppliers? Get quotes from different suppliers Award the contract directly to a supplier Awarding the contract directly to a supplier might mean you don’t get the best value. Check with your organisation’s head of procurement or legal adviser before you do so. Continue "
   },
   {
     "id": "http://localhost:3000/browse/data-storage",
-    "title": "Browse Data storage - GOV.UK Public Procurement",
+    "title": "Data storage - GOV.UK Public Procurement",
     "body": " Data storage Intro text here Can't find what you're looking for? "
   },
   {

@@ -12,7 +12,7 @@
     <h1 class="govuk-heading-xl">
       Buy products and services for the public sector
     </h1>
-    <form action="#">
+    <form action="/search">
       <div class="govuk-form-group govuk-!-margin-bottom-3">
         {{ govukInput({
           label: {
@@ -20,7 +20,7 @@
             classes: "govuk-!-font-weight-bold"
           },
           id: "search",
-          name: "search",
+          name: "q",
           hint: {
             text: "Find products, services, suppliers or frameworks."
           }
