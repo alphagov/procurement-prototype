@@ -125,7 +125,33 @@
           "name": "Venue hire"
         },
         {
-          "name": "Workplace"
+          "name": "Facilities management",
+          "children": [
+            {
+              "name": "Full service facilities management"
+            },
+            {
+              "name": "Maintenance"
+            },
+            {
+              "name": "Catering"
+            },
+            {
+              "name": "Cleaning"
+            },
+            {
+              "name": "Security"
+            },
+            {
+              "name": "Waste management"
+            }
+          ]
+        },
+        {
+          "name": "Property and estates"
+        },
+        {
+          "name": "Laundry and linen"
         }
       ]
     },

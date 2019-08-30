@@ -2,7 +2,7 @@
   {
     "id": "/",
     "title": "GOV.UK Public Procurement",
-    "body": " Buy products and services for the public sector Search Find products, services, suppliers or frameworks. Search Technology Data storage Hardware Network services Software Security Research and strategy Consultancy and managing change Market research People and training Contact centres People services Permanent recruitment Temporary recruitment Workforce health and education Buildings and utilities Construction Furniture Utilities and fuel Venue hire Workplace Legal and finance Accountancy Legal services Payment Travel and logistics Mail Taxis and coaches Vehicles Help and guides How to buy products and services for the public sector "
+    "body": " Buy products and services for the public sector Search Find products, services, suppliers or frameworks. Search Technology Data storage Hardware Network services Software Security Research and strategy Consultancy and managing change Market research People and training Contact centres People services Permanent recruitment Temporary recruitment Workforce health and education Buildings and utilities Construction Furniture Utilities and fuel Venue hire Facilities management Property and estates Laundry and linen Legal and finance Accountancy Legal services Payment Travel and logistics Mail Taxis and coaches Vehicles Help and guides How to buy products and services for the public sector "
   },
   {
     "id": "/browse/vehicles",
@@ -65,9 +65,24 @@
     "body": " Accountancy Intro text here Can't find what you're looking for? "
   },
   {
-    "id": "/browse/workplace",
-    "title": "Workplace - GOV.UK Public Procurement",
-    "body": " Workplace Intro text here Can't find what you're looking for? "
+    "id": "/browse/laundry-and-linen",
+    "title": "Laundry and linen - GOV.UK Public Procurement",
+    "body": " Laundry and linen Intro text here Can't find what you're looking for? "
+  },
+  {
+    "id": "/browse/property-and-estates",
+    "title": "Property and estates - GOV.UK Public Procurement",
+    "body": " Property and estates Intro text here Can't find what you're looking for? "
+  },
+  {
+    "id": "/browse/facilities-management",
+    "title": "Facilities management - GOV.UK Public Procurement",
+    "body": " Facilities management Intro text here Full service facilities management Maintenance Catering Cleaning Security Waste management Can't find what you're looking for? "
+  },
+  {
+    "id": "/service/catering/",
+    "title": "Catering - GOV.UK Public Procurement",
+    "body": " Catering Catering intro Find a supplier View all catering suppliers Can't find what you're looking for? Related products and services Full service facilities management "
   },
   {
     "id": "/browse/venue-hire",
