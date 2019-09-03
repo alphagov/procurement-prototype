@@ -17,6 +17,28 @@ $govuk-assets-path: '/govuk/assets/';
 
 // Add extra styles here, or re-organise the Sass files in whichever way makes most sense to you
 
+.govuk-header{
+  border-bottom: 0;
+}
 .govuk-header__container{
-  border-bottom-color: white;
+  border-bottom: 0;
+  margin-bottom: 0;
+}
+
+.site-navigation{
+  overflow: hidden;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: govuk-colour('black');
+  margin-bottom: govuk-spacing(3);
+
+  a{
+    @include govuk-font(19);
+    float: right;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px 0;
+    text-decoration: none;
+  }
 }
