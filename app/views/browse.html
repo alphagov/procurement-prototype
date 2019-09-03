@@ -27,11 +27,11 @@
 </div>
 
 <div class="govuk-grid-row">
-  <div class="govuk-grid-column-one-third">
+  <div class="govuk-grid-column-two-thirds">
     <ul class="govuk-list">
       {% for service in category.children %}
       <li>
-        <a href="/service/{{ service.name|toSlug }}/">
+        <a href="/service/{{ category.name|toSlug }}/{{ service.name|toSlug }}/">
           {{ service.name }}
         </a>
       </li>

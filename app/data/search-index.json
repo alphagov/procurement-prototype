@@ -30,27 +30,12 @@
     "body": " Legal services Intro text here Complex legal services Litigation and dispute resolution Property law Can't find what you're looking for? "
   },
   {
-    "id": "/service/litigation-and-dispute-resolution/",
+    "id": "/service/legal-services/litigation-and-dispute-resolution/",
     "title": "Litigation and dispute resolution",
     "body": " Litigation and dispute resolution Litigation and alternative forms of dispute resolution - including arbitration, mediation, contractual resolution advocacy and early advice on disputes. Find a supplier View all litigation and dispute resolution suppliers Can't find what you're looking for? Related services Financial and complex legal services "
   },
   {
-    "id": "/service/audit-consultancy/suppliers",
-    "title": "Suppliers - Audit consultancy - GOV.UK Public Procurement",
-    "body": " Audit Consultancy Suppliers ABC Consulting Ltd Summary here Bravo Green Summary here Central Ltd Summary here "
-  },
-  {
-    "id": "/service/audit-consultancy/abc-consulting",
-    "title": "Supplier - ABC Consulting - GOV.UK Public Procurement",
-    "body": " ABC Consulting 60 years experience working on agile projects in government. Site www.abc-consulting.digital Phone 01234 567890 DUNS number 01234567890 Address 4 Star House, Bristol Road Research Park,GuildfordGU4 7FF Services offered Audit consultancy Business consultancy Complex and transformational consultancy Contact centre consultancy ICT and digital consultancy Financial consultancy Human resources (HR) consultancy Health and community consultancy Procurement, supply chain and commercial consultancy Strategic consultancy "
-  },
-  {
-    "id": "/service/audit-consultancy",
-    "title": "Audit consultancy - GOV.UK Public Procurement",
-    "body": " Audit consultancy Financial auditing, internal process audits, security and anti-fraud audits. Includes advice on audit assurance, governance, financial statements and compliance with government audit standards. Find a supplier View all audit consultancy suppliers Can't find what you're looking for? Related services Financial and complex legal services "
-  },
-  {
-    "id": "/service/litigation-and-dispute-resolution/filter-suppliers",
+    "id": "/service/legal-services/litigation-and-dispute-resolution/filter-suppliers",
     "title": "Find a supplier - Litigation and dispute resolution - GOV.UK Public Procurement",
     "body": " Litigation and dispute resolution Find a supplier What type of organisation do you work for? Central government department, agency or body Local government School Other public sector How do you want to find suppliers? Get quotes from different suppliers Award the contract directly to a supplier Awarding the contract directly to a supplier might mean you don’t get the best value. Check with your organisation’s head of procurement or legal adviser before you do so. Continue "
   },
@@ -77,10 +62,10 @@
   {
     "id": "/browse/facilities-management",
     "title": "Facilities management - GOV.UK Public Procurement",
-    "body": " Facilities management Intro text here Full service facilities management Maintenance Catering Cleaning Security Waste management Can't find what you're looking for? "
+    "body": " Facilities management Intro text here Full service Maintenance Catering Cleaning Security Waste management Can't find what you're looking for? "
   },
   {
-    "id": "/service/catering/",
+    "id": "/service/facilities-management/catering/",
     "title": "Catering - GOV.UK Public Procurement",
     "body": " Catering Catering intro Find a supplier View all catering suppliers Can't find what you're looking for? Related products and services Full service facilities management "
   },
@@ -140,17 +125,17 @@
     "body": " Consultancy and managing change Intro text here Audit consultancy Business consultancy Complex and transformational consultancy Contact centre consultancy Education consultancy Financial consultancy Human resources (HR) consultancy Health and community consultancy Infrastructure consultancy ICT and digital consultancy Procurement, supply chain and commercial consultancy Strategic consultancy Can't find what you're looking for? "
   },
   {
-    "id": "/service/contact-centre-consultancy/",
+    "id": "/service/consultancy-and-managing-change/contact-centre-consultancy/",
     "title": "Contact centre consultancy - GOV.UK Public Procurement",
     "body": " Contact centre consultancy Advice on improving content centre processes, technology and encouraging channel shift and use of digital services. Find a supplier View all contact centre consultancy suppliers Can't find what you're looking for? "
   },
   {
-    "id": "/service/contact-centre-consultancy/filter-suppliers",
+    "id": "/service/consultancy-and-managing-change/contact-centre-consultancy/filter-suppliers",
     "title": "Find a supplier - Contact centre consultancy - GOV.UK Public Procurement",
     "body": " Contact centre consultancy Find a supplier What type of organisation do you work for? Central government department, agency or body Local government School Other public sector Who do you want a response from? Consultancy firms Individual consultants If you’re working for a central government organisation, you’ll need approval from Cabinet Office to spend money on consultancy. If you’re not sure whether these suppliers can meet your needs, run an expression of interest (EOI) to find out. Continue "
   },
   {
-    "id": "/service/audit-consultancy/",
+    "id": "/service/consultancy-and-managing-change/audit-consultancy/",
     "title": "Audit consultancy - GOV.UK Public Procurement",
     "body": " Audit consultancy Financial auditing, internal process audits, security and anti-fraud audits. Includes advice on audit assurance, governance, financial statements and compliance with government audit standards. Find a supplier View all audit consultancy suppliers Can't find what you're looking for? Related services Financial and complex legal services "
   },
@@ -175,12 +160,12 @@
     "body": " Hardware Intro text here Accessories Desktops Laptops Phones Printers Routers Can't find what you're looking for? "
   },
   {
-    "id": "/service/laptops/",
+    "id": "/service/hardware/laptops/",
     "title": "Laptops - GOV.UK Public Procurement",
     "body": " Laptops Apple, Windows and Linux laptop/notebook computers, from ultra-portable to high performance computers suitable for media editing. Find a supplier View all laptop suppliers Can't find what you're looking for? Related products and services Desktops Tablets Computer support "
   },
   {
-    "id": "/service/laptops/filter-suppliers",
+    "id": "/service/hardware/laptops/filter-suppliers",
     "title": "Find a supplier - Laptops - GOV.UK Public Procurement",
     "body": " Laptops Find a supplier What type of organisation do you work for? Central government department, agency or body Local government School Other public sector How many laptops do you need? Large quantity of identical laptops (usually 500 or more) Smaller quantity (usually fewer than 500) Since you’re buying a large quantity of identical items. We recommend that you get quotes from different suppliers. How do you want to find suppliers? Get quotes from different suppliers Award the contract directly to a supplier Awarding the contract directly to a supplier might mean you don’t get the best value. Check with your organisation’s head of procurement or legal adviser before you do so. Continue "
   },
