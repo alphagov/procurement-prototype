@@ -2,15 +2,15 @@
 {% extends "layout.html" %}
 
 {% block pageTitle %}
-  Find a supplier - Laptops - GOV.UK Public Procurement
+  Find a supplier - facilities management: full service - GOV.UK Public Procurement
 {% endblock %}
 
 
 {% block beforeContent %}
 
   {{ govukBackLink({
-    text: "Laptops",
-    href: "/service/laptops/"
+    text: "Facilities management: full service",
+    href: "/service/facilities-management/full-service"
   })}}
 
 {% endblock %}
@@ -20,7 +20,7 @@
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-two-thirds">
     <h1 class="govuk-heading-xl">
-      <span class="govuk-caption-xl">Laptops</span>
+      <span class="govuk-caption-xl">Facilities management: full service</span>
       Find a supplier
     </h1>
   </div>
@@ -33,30 +33,26 @@
     <div class="form-group">
 
       {{ govukRadios({
-        idPrefix: "org-type",
-        name: "org-type",
+        idPrefix: "contract-size",
+        name: "contract-size",
         fieldset: {
           legend: {
-            text: "What type of organisation do you work for?",
+            text: "How much will the contract be worth?",
             classes: "govuk-fieldset__legend--s"
           }
         },
         items: [
           {
-            value: "Central government department, agency or body",
-            text: "Central government department, agency or body"
+            value: "Up to £7 million",
+            text: "Up to £7 million"
           },
           {
-            value: "Local government",
-            text: "Local government"
+            value: "Between £7 million and £50 million",
+            text: "Between £7 million and £50 million"
           },
           {
-            value: "School",
-            text: "School"
-          },
-          {
-            value: "Other public sector",
-            text: "Other public sector"
+            value: "More than £50 million",
+            text: "More than £50 million"
           }
         ]
       }) }}
@@ -64,31 +60,70 @@
     </div>
     <div class="form-group">
 
-      {{ govukRadios({
-        idPrefix: "how-many",
-        name: "how-many",
-        fieldset: {
-          legend: {
-            text: "How many laptops do you need?",
-            classes: "govuk-fieldset__legend--s"
-          }
-        },
-        items: [
-          {
-            value: "Large quantity of identical laptops (usually 500 or more)",
-            text: "Large quantity of identical laptops (usually 500 or more)",
-            checked: true
-          },
-          {
-            value: "Smaller quantity (usually fewer than 500)",
-            text: "Smaller quantity (usually fewer than 500)"
-          }
-        ]
-      }) }}
-
-      <p class="govuk-inset-text">
-        Since you’re buying a large quantity of identical items. We recommend that you get quotes from different suppliers.
-      </p>
+     {{ govukCheckboxes({
+  idPrefix: "supplier-location",
+  name: "supplier-location",
+  fieldset: {
+    legend: {
+      text: "Where are the facilities based?",
+      isPageHeading: false,
+      classes: "govuk-fieldset__legend--xl"
+    }
+  },
+  hint: {
+    text: "Select all that apply."
+  },
+  items: [
+    {
+      value: "scotland",
+      text: "Scotland"
+    },
+    {
+      value: "northern-ireland",
+      text: "Northern Ireland"
+    },
+    {
+      value: "wales",
+      text: "Wales"
+    }
+    {
+      value: "north-east",
+      text: "North East"
+    }
+    {
+      value: "north-west",
+      text: "North West"
+    }    
+   {
+      value: "yorkshire-humber",
+      text: "Yorkshire and the Humber"
+    }     
+   {
+      value: "east-midlands",
+      text: "East Midlands"
+    }           
+   {
+      value: "west-midlands",
+      text: "West Midlands"
+    }            
+    {
+      value: "south-east",
+      text: "South East"
+    }          
+    {
+      value: "south-west",
+      text: "South West"
+    }         
+    {
+      value: "london",
+      text: "London"
+    }       
+    {
+      value: "outside-uk",
+      text: "Outside the UK"
+    }            
+  ]
+}) }}
 
     </div>
     <div class="form-group">
