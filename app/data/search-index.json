@@ -65,9 +65,34 @@
     "body": " Facilities management Intro text here Full service Maintenance Catering Cleaning Security Waste management Can't find what you're looking for? "
   },
   {
+    "id": "/service/facilities-management/security/",
+    "title": "Facilities management: security services - GOV.UK Public Procurement",
+    "body": " Facilities management: security services Find a supplier for security services at your premises. Includes: alarm systems guarding and patrols key holding access control, security passes and visitor management responding to emergencies enhanced security - for example to meet specific security threats or visitors with enhanced security needs specialist services, including court security officers and prisoner custody officers Find a supplier View all security suppliers Can't find what you're looking for? Related products and services Facilities management: full service Estates and property management "
+  },
+  {
+    "id": "/service/facilities-management/security/filter-suppliers",
+    "title": "Find a supplier - facilities management: security services - GOV.UK Public Procurement",
+    "body": " Facilities management: security services Find a supplier Where are the facilities based? Select all that apply. Scotland Northern Ireland Wales North East North West Yorkshire and the Humber East Midlands West Midlands South East South West London Outside the UK How do you want to find suppliers? Get quotes from different suppliers Award the contract directly to a supplier Awarding the contract directly to a supplier might mean you don’t get the best value. Check with your organisation’s head or procurement or legal adviser first. Continue "
+  },
+  {
     "id": "/service/facilities-management/catering/",
     "title": "Catering - GOV.UK Public Procurement",
     "body": " Catering Catering intro Find a supplier View all catering suppliers Can't find what you're looking for? Related products and services Full service facilities management "
+  },
+  {
+    "id": "/service/facilities-management/full-service/",
+    "title": "Full service facilities management - GOV.UK Public Procurement",
+    "body": " Facilities management: full service Find a supplier to meet more than one (or all of) your facilities management needs, including maintenance, gardening, catering, cleaning, reception, security, helpdesk and waste management services. A full service contact will usually include any contact management, contract mobilisation or advice on statutory obligations you need. Find a supplier View all full service suppliers Can't find what you're looking for? Related products and services Facilities management: catering services Facilities management: cleaning services Facilities management: gardening services Facilities management: helpdesk services Facilities management: maintenance services Facilities management: reception services Facilities management: security services Facilities management: waste management Estates and property management "
+  },
+  {
+    "id": "/service/facilities-management/full-service/filter-suppliers",
+    "title": "Find a supplier - facilities management: full service - GOV.UK Public Procurement",
+    "body": " Facilities management: full service Find a supplier How much will the contract be worth? Up to £7 million Between £7 million and £50 million More than £50 million Where are the facilities based? Select all that apply. Scotland Northern Ireland Wales North East North West Yorkshire and the Humber East Midlands West Midlands South East South West London Outside the UK How do you want to find suppliers? Get quotes from different suppliers Award the contract directly to a supplier Awarding the contract directly to a supplier might mean you don’t get the best value. Check with your organisation’s head of procurement or legal adviser before you do so. Continue "
+  },
+  {
+    "id": "/service/facilities-management/full-service",
+    "title": "Full service facilities management - GOV.UK Public Procurement",
+    "body": " Facilities management: full service Find a supplier to meet more than one (or all of) your facilities management needs, including maintenance, gardening, catering, cleaning, reception, security, helpdesk and waste management services. A full service contact will usually include any contact management, contract mobilisation or advice on statutory obligations you need. Find a supplier View all full service suppliers Can't find what you're looking for? Related products and services Facilities management: catering services Facilities management: cleaning services Facilities management: gardening services Facilities management: helpdesk services Facilities management: maintenance services Facilities management: reception services Facilities management: security services Facilities management: waste management Estates and property management "
   },
   {
     "id": "/browse/venue-hire",
@@ -162,7 +187,7 @@
   {
     "id": "/service/hardware/laptops/",
     "title": "Laptops - GOV.UK Public Procurement",
-    "body": " Laptops Apple, Windows and Linux laptop/notebook computers, from ultra-portable to high performance computers suitable for media editing. Find a supplier View all laptop suppliers Can't find what you're looking for? Related products and services Desktops Tablets Computer support "
+    "body": " Laptops Apple, Windows and Linux laptop/notebook computers, from ultra-portable to high performance computers suitable for media editing. Ways to buy Online store Quick Good for smaller quantities Find a supplier Good for larger quantities Can be better value Can't find what you're looking for? Related products and services Desktops Tablets Computer support "
   },
   {
     "id": "/service/hardware/laptops/filter-suppliers",
