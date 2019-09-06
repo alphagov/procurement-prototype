@@ -5,6 +5,7 @@
   Search: {{ searchTerm }} - GOV.UK Public Procurement
 {% endblock %}
 
+{% block headerSearch %}{% endblock %}
 
 {% block beforeContent %}
 
@@ -30,6 +31,7 @@
           },
           id: "search",
           name: "q",
+          value: searchTerm,
           hint: {
             text: "Find products, services, suppliers or frameworks."
           }

@@ -47,7 +47,13 @@
 
   </div>
 </header>
-<nav class="site-navigation govuk-width-container">
+<nav class="site-navigation govuk-clearfix govuk-width-container">
+  {% block headerSearch %}
+    <form style="display:inline" action="/search">
+      <input type="text" name="q" class="govuk-input govuk-input--width-20 header-search-input">
+      <button class="govuk-button govuk-button--secondary header-search-button govuk-!-margin-bottom-0">Search</button>
+    </form>
+  {% endblock %}
   <a href="#">Sign in</a>
   <a href="#">Help</a>
 </nav>
