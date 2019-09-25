@@ -49,3 +49,24 @@ $govuk-assets-path: '/govuk/assets/';
     text-decoration: none;
   }
 }
+
+.item{
+  display: block;
+  border-top: 1px solid govuk-colour('mid-grey');
+  border-bottom: 1px solid govuk-colour('mid-grey');
+  padding: 16px;
+  .image img{
+    max-width: 100%;
+  }
+  &:link{
+    color: govuk-colour('black');
+    text-decoration: none;
+  }
+  .price{
+    @include govuk-font(19);
+    margin-bottom: govuk-spacing(2);
+  }
+  .name{
+    @include govuk-font(16);
+  }
+}

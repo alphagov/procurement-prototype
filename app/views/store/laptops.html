@@ -1,0 +1,102 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Laptops - GOV.UK Public Procurement
+{% endblock %}
+
+{% block siteName %}Store{% endblock siteName %}
+
+{% block beforeContent %}
+
+  {{ govukBackLink({
+    text: "Hardware",
+    href: "/browse/hardware"
+  })}}
+
+{% endblock %}
+
+{% block content %}
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-one-quarter">
+    &nbsp;
+  </div>
+  <div class="govuk-grid-column-three-quarters">
+    <h1 class="govuk-heading-xl">
+      Laptops
+    </h1>
+    <h2 class="govuk-heading-m">
+      Best sellers
+    </h2>
+  </div>
+</div>
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-one-quarter">
+    <div class="search-filters">
+      <div class="filter-group">
+        <ul class="govuk-list">
+          <li>
+            <a href="#">Windows laptops</a>
+          </li>
+          <li>
+            <a href="#">MacBooks</a>
+          </li>
+          <li>
+            <a href="#">Chromebooks</a>
+          </li>
+          <li>
+            <a href="#">Gaming laptops</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="govuk-grid-column-three-quarters">
+
+    <div class="govuk-grid-column-one-third">
+      <a class="item" href="#">
+        <div class="image">
+          <img src="/public/images/laptop-01.jpg" alt="">
+        </div>
+        <div class="price">
+          £104.15
+        </div>
+        <div class="name">
+          ASUS VivoBook E12 E203MA FD009TS
+        </div>
+      </a>
+    </div>
+
+    <div class="govuk-grid-column-one-third">
+      <a class="item" href="#">
+        <div class="image">
+          <img src="/public/images/laptop-02.jpg" alt="">
+        </div>
+        <div class="price">
+          £104.15
+        </div>
+        <div class="name">
+          ASUS VivoBook E12 E203MA FD009TS
+        </div>
+      </a>
+    </div>
+
+    <div class="govuk-grid-column-one-third">
+      <a class="item" href="#">
+        <div class="image">
+          <img src="/public/images/laptop-03.jpg" alt="">
+        </div>
+        <div class="price">
+          £104.15
+        </div>
+        <div class="name">
+          ASUS VivoBook E12 E203MA FD009TS
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
