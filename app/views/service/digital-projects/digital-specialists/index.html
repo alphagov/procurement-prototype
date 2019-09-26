@@ -1,0 +1,80 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Digital specialists
+{% endblock %}
+
+
+{% block beforeContent %}
+
+  {{ govukBackLink({
+    text: "Digital projects",
+    href: "/browse/digital-projects"
+  })}}
+
+{% endblock %}
+
+{% block content %}
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+    <h1 class="govuk-heading-xl">
+      Digital specialists
+    </h1>
+  </div>
+</div>
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+
+    <p>Find an individual digital specialist to complete a specific piece of work. For example, a</p>
+
+    <ul class="govuk-list govuk-list--bullet">
+      <li>developer or software engineer</li>
+      <li>user researcher</li>
+      <li>product manager</li>
+      <li>delivery manager</li>
+      <li>interaction or service designer</li>
+      <li>content designer</li>
+      <li>technical architect</li>
+      <li>web operations engineer</li>
+      <li>cyber security specialist</li>
+    </ul>
+
+    <div class="govuk-form-group">
+      <a href="filter-suppliers" class="govuk-!-margin-top-2 govuk-!-margin-bottom-1 govuk-button govuk-button--start">
+        Find a supplier
+        <svg class="govuk-button__start-icon" xmlns="http://www.w3.org/2000/svg" width="17.5" height="19" viewBox="0 0 33 40" role="presentation" focusable="false">
+          <path fill="currentColor" d="M0 0h13l20 20-20 20H0l20-20z" />
+        </svg>
+      </a>
+    </div>
+
+    <p>
+      <a href="/service/audit-consultancy/suppliers">
+        View all digital specialist suppliers
+      </a>
+    </p>
+
+    <p>
+      <a href="#">Can't find what you're looking for?</a>
+    </p>
+  </div>
+  <div class="govuk-grid-column-one-third">
+    <h2 class="govuk-heading-m">
+      Related services
+    </h2>
+    <ul class="govuk-list">
+      <li>
+        <p>
+          <a href="#">
+            Digital teams and outcomes
+          </a>
+        </p>
+      </li>
+    </ul>
+  </div>
+</div>
+
+{% endblock %}

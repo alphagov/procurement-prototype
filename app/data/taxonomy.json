@@ -1,10 +1,41 @@
 {
   "children": [
     {
-      "name": "Technology",
+      "name": "Digital and technology",
       "children": [
         {
+          "name": "Cloud technology",
+          "children": [
+            {
+              "name": "Cloud hosting"
+            },
+            {
+              "name": "Cloud software"
+            },
+            {
+              "name": "Cloud support"
+            }
+          ]
+        },
+        {
+          "name": "Cyber security"
+        },
+        {
+          "name": "Digital projects",
+          "children": [
+            {
+              "name": "Digital specialists"
+            },
+            {
+              "name": "Digital teams and outcomes"
+            }
+          ]
+        },
+        {
           "name": "Data storage"
+        },
+        {
+          "name": "Enterprise software"
         },
         {
           "name": "Hardware",
@@ -86,6 +117,12 @@
         },
         {
           "name": "Market research"
+        },
+        {
+          "name": "User research participants"
+        },
+        {
+          "name": "User research studios"
         }
       ]
     },
