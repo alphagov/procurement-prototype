@@ -1,0 +1,64 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Cloud hosting
+{% endblock %}
+
+
+{% block beforeContent %}
+
+  {{ govukBackLink({
+    text: "Cloud technology",
+    href: "/browse/digital-projects"
+  })}}
+
+{% endblock %}
+
+{% block content %}
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+    <h1 class="govuk-heading-xl">
+      Cloud hosting
+    </h1>
+  </div>
+</div>
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+
+    <p>Find hosting, platform or infrastructure services for your website or web application. For example, content delivery networks (CDNs) or load balancing services.</p>
+
+    <div class="govuk-form-group">
+      <a href="filter-suppliers" class="govuk-!-margin-top-2 govuk-!-margin-bottom-1 govuk-button govuk-button--start">
+        Find a supplier
+        <svg class="govuk-button__start-icon" xmlns="http://www.w3.org/2000/svg" width="17.5" height="19" viewBox="0 0 33 40" role="presentation" focusable="false">
+          <path fill="currentColor" d="M0 0h13l20 20-20 20H0l20-20z" />
+        </svg>
+      </a>
+    </div>
+
+    <p>
+      <a href="/service/audit-consultancy/suppliers">
+        View all cloud hosting suppliers
+      </a>
+    </p>
+
+    <p>
+      <a href="#">Can't find what you're looking for?</a>
+    </p>
+  </div>
+  <div class="govuk-grid-column-one-third">
+    <h2 class="govuk-heading-m">
+      Related services
+    </h2>
+    <ul class="govuk-list">
+      <li>
+        <p><a href="#">Cloud software</a></p>
+      </li>
+    </ul>
+  </div>
+</div>
+
+{% endblock %}
