@@ -7,11 +7,13 @@ module.exports = {
     '/'
   ],
 
-  // paths to exclude in search, supports regular expressions
+  // paths to exclude in search, supports 'glob' syntax
   // for example:
   // exclude : ['/admin*']
   exclude: [
-    '*filter-suppliers'
+    '/',
+    '**/filter-suppliers',
+    '/store/**'
   ]
 
 }
