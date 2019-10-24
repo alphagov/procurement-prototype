@@ -1,0 +1,84 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Find a supplier - Audit consultancy - GOV.UK Public Procurement
+{% endblock %}
+
+
+{% block beforeContent %}
+
+  {{ govukBackLink({
+    text: "Audit consultancy",
+    href: "/service/consultancy-and-managing-change/audit-consultancy/"
+  })}}
+
+{% endblock %}
+
+{% block content %}
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+    <h1 class="govuk-heading-l">
+      <span class="govuk-caption-l">Audit consultancy</span>
+      Find a supplier through the Management Consultancy framework (RM3745)
+    </h1>
+  </div>
+</div>
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+
+    <p>When you buy through this framework under the standard terms and conditions:</p>
+
+    <ul class="govuk-list govuk-list--bullet">
+      <li>
+        you can agree a fixed price with the supplier, or one based on risk and reward or time and materials
+      </li>
+      <li>
+        you’ll usually own any intellectual property that’s created
+      </li>
+    </ul>
+
+    <p>
+      <a href="#">
+        View all suppliers on this framework
+      <a>
+    </p>
+
+    <h2 class="govuk-heading-m">
+      Next steps
+    </h2>
+
+    <ul class="govuk-list govuk-list--number">
+      <li>
+        <a href="#">(Optional) Run an expression of interest</a>
+      </li>
+      <li>
+        <a href="#">Write your requirements</a>
+      </li>
+      <li>
+        <a href="#">Put out a tender</a>
+      </li>
+      <li>
+        <a href="#">Evaluate suppliers responses</a>
+      </li>
+      <li>
+        <a href="#">Notify suppliers of the outcome</a>
+      </li>
+      <li>
+        <a href="#">Agree contract using call off order form</a>
+      </li>
+    </ul>
+
+    <h3 class="govuk-heading-s">Direct award</h3>
+
+    <p>
+      In some cases you may be able to award your contract directly to a supplier (step 6). This might mean you don’t get the best value. Check with your head of procurement or legal adviser first.
+    </p>
+
+  </div>
+
+</div>
+
+{% endblock %}

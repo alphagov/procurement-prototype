@@ -1,0 +1,40 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Find a supplier - Laptops - GOV.UK Public Procurement
+{% endblock %}
+
+
+{% block beforeContent %}
+
+  {{ govukBackLink({
+    text: "Filter suppliers",
+    href: "filter-suppliers"
+  })}}
+
+{% endblock %}
+
+{% block content %}
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+    <h1 class="govuk-heading-xl">
+      <span class="govuk-caption-xl">Laptops</span>
+      Find a supplier
+    </h1>
+  </div>
+</div>
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+
+  <p>
+
+  </p>
+
+  </div>
+
+</div>
+
+{% endblock %}
