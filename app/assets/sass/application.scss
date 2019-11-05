@@ -16,9 +16,17 @@ $govuk-assets-path: '/govuk/assets/';
 @import "components/cookie-banner";
 
 // Add extra styles here, or re-organise the Sass files in whichever way makes most sense to you
+.govuk-button,
+.govuk-button:hover{
+  background: #007E8A;
+}
 
+.govuk-button.govuk-button--secondary {
+  background-color: #f3f2f1;
+}
 .govuk-header{
   border-bottom: 0;
+  background: #9B1A47;
 }
 .govuk-header__container{
   border-bottom: 0;
@@ -29,7 +37,7 @@ $govuk-assets-path: '/govuk/assets/';
   border-bottom-width: 2px;
   border-bottom-style: solid;
   border-bottom-color: govuk-colour('black');
-  margin-bottom: govuk-spacing(3);
+  margin-bottom: govuk-spacing(1);
 
   padding-top: govuk-spacing(2);
   padding-bottom: govuk-spacing(2);
