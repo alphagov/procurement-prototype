@@ -10,7 +10,7 @@ const filters = require('./filters')()
 
 let lunrIndex = lunr(function () {
   this.ref('id')
-  this.field('title')
+  this.field('title', { boost: 2 })
   this.field('body')
   this.metadataWhitelist = ['position']
 
