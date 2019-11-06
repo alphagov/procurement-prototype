@@ -4,7 +4,8 @@ module.exports = {
   // paths to include in search
   // the search spider will follow links from these pages
   include: [
-    '/'
+    '/',
+    '/framework/management-consultancy-framework'
   ],
 
   // paths to exclude in search, supports 'glob' syntax
@@ -13,6 +14,8 @@ module.exports = {
   exclude: [
     '/',
     '**/filter-suppliers',
+    '**/agreement',
+    '**/suppliers',
     '/store/**'
   ]
 
