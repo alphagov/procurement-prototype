@@ -8,15 +8,22 @@ module.exports = {
     '/framework/management-consultancy-framework'
   ],
 
-  // paths to exclude in search, supports 'glob' syntax
-  // for example:
+  // paths to exclude in search
+  // supports 'glob' syntax, for example:
   // exclude : ['/admin*']
   exclude: [
-    '/',
     '**/filter-suppliers',
     '**/agreement',
     '**/suppliers',
     '/store/**'
+  ],
+
+  // paths to remove from the finished search index:
+  // pages you want to spider, but not include in search results
+  // supports 'glob' syntax, for example:
+  // remove : ['/']
+  remove: [
+    '/'
   ]
 
 }
